@@ -1,0 +1,308 @@
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 65px;
+    font-weight: 900;
+    color: #333b5f;
+    margin-bottom: 15px;
+  }
+
+  .list {
+    display: flex;
+    margin-top: 40px;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+
+  .svg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+
+  .item {
+    width: 200px;
+    text-align: start;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333b5f;
+  }
+
+  .svg:hover,
+  .svg:focus {
+    background: #956196;
+    border: 2px solid #956196;
+  }
+
+  .paymentList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -15px;
+    padding: 0;
+  }
+
+  .paymentWrapper {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .paymentItem {
+    background: #c8d5e5;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+  }
+
+  .paymentItem:hover,
+  .paymentItem:focus {
+    background: #956196;
+  }
+  .paymentSvg {
+    width: 120px;
+    height: 23px;
+  }
+
+  .cardTitle {
+    text-align: start;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .cardForm {
+    background-color: #c8d5e5;
+    border-radius: 15px;
+    height: 125px;
+    width: 270px;
+    padding: 20px;
+  }
+
+  .cardText {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #fff;
+    text-align: start;
+  }
+
+  .numInput {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #c8d5e5;
+  }
+
+  .numInput:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #2196f3;
+  }
+
+  .dateLabel {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+  }
+
+  .dateInput {
+    margin-top: 5px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #c8d5e5;
+  }
+
+  .dateInput:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #2196f3;
+  }
+
+  .dateLabel {
+    color: #fff;
+  }
+
+  .dateWrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .numWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btnSend {
+    width: 250px;
+    height: 50px;
+    border: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right, #d64759, #8b69a5);
+  }
+
+  .btnSend:hover,
+  .btnSend:focus {
+    box-shadow: 5px 5px 5px #8b69a5;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    font-weight: 900;
+    color: #333b5f;
+    margin-bottom: 15px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    list-style: none;
+  }
+  .svg {
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  .item {
+    text-align: start;
+  }
+  .link {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333b5f;
+  }
+  .svg:hover,
+  .svg:focus {
+    background: #956196;
+    border: 2px solid #956196;
+  }
+  .paymentList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -15px;
+    padding: 0;
+  }
+  .paymentWrapper {
+    max-width: 280px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .paymentItem {
+    background: #c8d5e5;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .paymentItem:hover,
+  .paymentItem:focus {
+    background: #956196;
+  }
+  .cardTitle {
+    text-align: start;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .cardForm {
+    background-color: #c8d5e5;
+    border-radius: 15px;
+
+    padding: 20px;
+  }
+  .cardText {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #fff;
+    text-align: start;
+  }
+  .numInput {
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #c8d5e5;
+  }
+  .numInput:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #2196f3;
+  }
+  .dateLabel {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+  }
+  .dateInput {
+    margin-top: 5px;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #c8d5e5;
+  }
+  .dateInput:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #2196f3;
+  }
+  .dateLabel {
+    color: #fff;
+  }
+
+  .dateWrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .numWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnSend {
+    width: 250px;
+    height: 50px;
+    border: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right, #d64759, #8b69a5);
+  }
+
+  .btnSend:hover,
+  .btnSend:focus {
+    box-shadow: 5px 5px 5px #8b69a5;
+  }
+}

@@ -1,0 +1,191 @@
+@media screen and (min-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .label {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 14px;
+    color: #afb3b6;
+  }
+
+  span {
+    margin-bottom: 3px;
+  }
+
+  .title {
+    font-size: 65px;
+    font-weight: 900;
+    color: #333b5f;
+    margin-bottom: 15px;
+  }
+
+  .label:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .input {
+    padding-left: 10px;
+    background-color: #f3f6fb;
+    border: 1px solid #f3f6fb;
+    height: 25px;
+    border-radius: 3px;
+  }
+
+  .input:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #2196f3;
+  }
+
+  .input:focus + .label {
+    color: #2196f3;
+  }
+
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+  }
+
+  .nameWrapper {
+    display: flex;
+  }
+
+  .button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #363c5c;
+    color: #363c5c;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .button:hover,
+  .button:focus {
+    color: #fff;
+    background-color: #363c5c;
+  }
+
+  .logoInput {
+    position: absolute;
+    font-size: 13px;
+    top: 102px;
+    right: -80px;
+    color: #b3d2e6;
+    cursor: pointer;
+  }
+  .logoInput:hover,
+  .logoInput:focus {
+    color: #2196f3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    font-weight: 900;
+    color: #333b5f;
+    margin-bottom: 15px;
+  }
+  .form {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+  }
+  .label {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 20px;
+    color: #afb3b6;
+  }
+  .label:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  span {
+    margin-bottom: 3px;
+  }
+  .input {
+    padding-left: 10px;
+    background-color: #f3f6fb;
+    border: 1px solid #f3f6fb;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 3px;
+  }
+  .input:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #2196f3;
+  }
+
+  .input:focus + .label {
+    color: #2196f3;
+  }
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+  }
+
+  .button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #363c5c;
+    color: #363c5c;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .button:hover,
+  .button:focus {
+    color: #fff;
+    background-color: #363c5c;
+  }
+  .logoInput {
+    position: absolute;
+    font-size: 15px;
+    top: 230px;
+    right: 10px;
+    color: #b3d2e6;
+    cursor: pointer;
+  }
+
+  .logoInput:hover,
+  .logoInput:focus {
+    color: #2196f3;
+  }
+}
